@@ -6,7 +6,7 @@ $html   = new html_fcc();
 
 $dbconf->hostname = "localhost";
 $dbconf->username = "root";
-$dbconf->password = "";
+$dbconf->password = "root";
 $dbconf->database = "crud_alinko";
 
 $acon = $dbconf->__connect_db_fcc($dbconf->hostname,
