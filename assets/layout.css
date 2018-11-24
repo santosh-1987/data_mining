@@ -1,0 +1,133 @@
+@import url("banner.css");
+
+body {
+	margin: 0px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	background-image: url(../assets/images/body_bd.jpg);
+	background-repeat: repeat;
+	
+}
+.container {
+	border:1px solid;
+	border-color:#CCCCCC;
+	position:absolute;
+	width:80%;
+	left:98px;
+	height: 670px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	background-image: url(../assets/images/bg.jpg);
+	background-repeat: repeat;
+	top: 0px;
+}
+
+.left-spacer {
+	position:absolute;
+	left:90px;
+	background-image: url(../assets/images/mm_spacer.gif);
+	background-repeat: repeat-y;
+	
+}
+.right-spacer {
+	position:absolute;
+	right:90px;
+	background-image: url(../assets/images/mm_spacer.gif);
+	background-repeat: repeat-y;
+
+}
+.user-login-panel{
+	position:absolute;
+	top:205px;
+	left:234px;
+	border:1px solid;
+	border-color:#cccccc;
+	padding:10px;
+	background-color: #FFFFFF;
+	width: 313px;
+	
+}
+.user-main-panel{
+	position:absolute;
+	top:277px;
+	left:61px;
+	border:1px solid;
+	border-color:#cccccc;
+	padding:10px;
+	background-color: #FFFFFF;
+	background-image: url(../assets/images/bg.jpg);
+	font-size:10px;
+	width: 667px;
+	overflow:auto;
+	height: 348px;
+	
+}
+.user-menus-panel{
+	position:absolute;
+	top:153px;
+	left:61px;
+	border:1px solid;
+	border-color:#cccccc;
+	padding:10px;
+	background-color: #FFFFFF;
+	width: 667px;
+	overflow:auto;
+	
+	
+}
+.add-container {
+	border:1px solid;
+	border-color:#CCCCCC;
+	position:relative;
+	width:80%;
+	left:126px;
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	background-image: url(../assets/images/bgimage.jpg);
+	background-repeat: repeat;
+	top: 0px;
+	
+	
+}
+.add-user-main-panel{
+	position:relative;
+	top:2px;
+	left:155px;
+	border:1px solid;
+	border-color:#cccccc;
+	background-image: url(../assets/images/bg.jpg);
+	padding:10px;
+	background-color: #FFFFFF;
+	font-size:10px;
+	width: 70%;
+	overflow:auto;
+}
+.add-user-menus-panel{
+	position:relative;
+	top:2px;
+	left:155px;
+	border:1px solid;
+	border-color:#cccccc;
+	padding:10px;
+	background-color: #FFFFFF;
+	background-image: url(../assets/images/bg.jpg);
+	width: 70%;
+	overflow:auto;
+}
+.footer-div{
+	position:relative;
+	background-image: url(../assets/images/bg.jpg);
+	height:20px;
+	width:100%;
+	margin:0 auto;
+	bottom:0px;
+	
+}
+input{
+	border-radius:5px;
+	padding:5px;
+}
+button{
+	padding:5px;
+}

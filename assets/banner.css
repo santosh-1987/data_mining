@@ -1,0 +1,60 @@
+/* CSS Document */
+
+.banner-div{
+	position:relative;
+	background-image: url(../assets/images/bg.jpg);
+	height:150px;
+	width:100%;
+	margin:0 auto;
+	
+}
+.banner-div .logo{
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:0;
+}
+.banner-div .logo img{
+	width:150px;
+	height:150px;
+}
+.banner-div .site-title{
+	font-size:36px;
+	position:absolute;
+	width:81.5%;
+	height:40px;
+	right:0px;
+	top:45px;
+	
+}
+.banner-div .site-slogan{
+	font-size:14px;
+	position:absolute;
+	width:81.5%;
+	height:40px;
+	right:0px;
+	top:90px;
+	text-align:center;
+	color:white;
+	
+}
+.banner-div .date{
+	text-align:center;
+	font-size:16px;
+	position:absolute;
+	width:20%;
+	right:5px;
+	top:5px;
+	color:#FFFFFF;
+	
+}
+.banner-div .time{
+	text-align:center;
+	font-size:16px;
+	position:absolute;
+	width:20%;
+	right:5px;
+	top:25px;
+	color:#FFFFFF;
+	
+}
